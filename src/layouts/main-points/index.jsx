@@ -1,0 +1,49 @@
+import { Disclosure } from "@headlessui/react";
+import Accordion from "src/components/accordion";
+
+export default function MainPoints() {
+  return (
+    <section id="mainpoints" className="bg-primary">
+      <div className="w-5/6 container mx-auto pt-16">
+        <h3 className="text-2xl sm:text-3xl md:text-5xl bg-dark-red w-full px-3 rounded py-3 font-bold text-white">
+          MAIN POINTS DONE
+        </h3>
+        <div className="mt-5 sm:mt-7 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-7 md:gap-10">
+          <Accordion
+            title={"Pipeline Design"}
+            paragraph={`aaaaaaaaaaaa
+ quia veniam dolor quas consectetur ducimus!
+                
+                `}
+          />
+          <Accordion
+            title={"Pump Design"}
+            paragraph={`aaaaaaaaaaaa
+ quia veniam dolor quas consectetur ducimus!
+                
+                `}
+          />
+
+          
+
+          <Accordion
+            title={"Pipeline Route"}
+            paragraph={`aaaaaaaaaaaa
+ quia veniam dolor quas consectetur ducimus!
+                
+                `}
+          />
+
+    
+<Accordion
+            title={"Select minimum cost for Pumps"}
+            paragraph={`aaaaaaaaaaaa
+ quia veniam dolor quas consectetur ducimus!
+                
+                `}
+          />
+        </div>
+      </div>
+    </section>
+  );
+}
