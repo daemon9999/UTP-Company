@@ -29,7 +29,7 @@ export default function Header({setIsOpen}) {
           <Button as="a" href="https://wa.me/+994505429229" target="_blank">
             Contact Us
           </Button>
-          <Button as="a" href="/team">
+          <Button as="link" to="/team" >
             Team Members
           </Button>
         </div>

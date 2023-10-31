@@ -16,7 +16,7 @@ export default function Menu({ setIsOpen }) {
         <Button as="a" href="https://wa.me/+994505429229" target="_blank">
           Contact Us
         </Button>
-        <Button as="a" href="/team">
+        <Button as="link" to="/team" onClick={() => setIsOpen(prev => !prev)}>
           Team Members
         </Button>
       </div>
