@@ -1,5 +1,5 @@
 import { IoMdClose } from "react-icons/io";
-import { Link } from "react-router-dom";
+
 import Button from "../button";
 import { NavItem } from "src/layouts/header";
 
@@ -13,7 +13,7 @@ export default function Menu({ setIsOpen }) {
       <div className="flex flex-col gap-y-4 items-center">
         <NavItem as={'link'} href={'/#about-project'} onClick={() => setIsOpen(prev => !prev)}>About</NavItem>
         <NavItem as={'link'} href={'/#mainpoints'} onClick={() => setIsOpen(prev => !prev)}>Main Points</NavItem>
-        <Button as="a" href="https://wa.me/+994505429229" target="_bl ank">
+        <Button as="a" href="https://wa.me/+994505429229" target="_blank">
           Contact Us
         </Button>
         <Button as="a" href="/team">

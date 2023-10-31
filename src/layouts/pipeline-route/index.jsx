@@ -19,7 +19,7 @@ export default function PipelineRoute() {
         <Button
           as="a"
           additionalStyle="w-auto md:px-20 mx-auto"
-          href="https://public.tableau.com/views/EACOPElevation/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link"
+          href="https://public.tableau.com/app/profile/akbar.bunyadzade/viz/ElevationProfileforEACOPproject/Sheet1"
           target="_blank"
         >
           Look at more detailed one

@@ -11,36 +11,22 @@ export default function MainPoints() {
         <div className="mt-5 sm:mt-7 md:mt-10 grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-7 md:gap-10">
           <Accordion
             title={"Pipeline Design"}
-            paragraph={`aaaaaaaaaaaa
- quia veniam dolor quas consectetur ducimus!
-                
+            paragraph={`Pipeline design of the project was done in Aspen Hysys app. Calculated pressure drop across the pipe are 9-10 MPa. 
                 `}
           />
           <Accordion
             title={"Pump Design"}
-            paragraph={`aaaaaaaaaaaa
- quia veniam dolor quas consectetur ducimus!
-                
-                `}
+            paragraph={`Pump sizing was implemented in Aspen Hysys simulation tool. The type of the pipe chosen is positive displacement pump with the efficiency 75 %.`}
           />
-
-          
 
           <Accordion
             title={"Pipeline Route"}
-            paragraph={`aaaaaaaaaaaa
- quia veniam dolor quas consectetur ducimus!
-                
-                `}
+            paragraph={`Optimum pipeline route was drawn on Google Earth Pro software by concluding its optimum length as 1439 km.`}
           />
 
-    
-<Accordion
+          <Accordion
             title={"Select minimum cost for Pumps"}
-            paragraph={`aaaaaaaaaaaa
- quia veniam dolor quas consectetur ducimus!
-                
-                `}
+            paragraph={`According to the financial analysis and design calculations, project's estimated cost of construction is set to be 1.5 billion dollar.`}
           />
         </div>
       </div>

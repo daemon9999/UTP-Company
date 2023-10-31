@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import AboutProject from "src/layouts/about-project";
 import Form from "src/layouts/form";
 import MainPoints from "src/layouts/main-points";
@@ -7,8 +7,17 @@ import Slogan from "src/layouts/slogan";
 import Tools from "src/layouts/tools";
 import { MdGroups2 } from "react-icons/md";
 import PipelineRoute from "src/layouts/pipeline-route";
-import { Helmet } from "react-helmet";
+import { useEffect } from "react";
+import PipelineMap from "src/layouts/pipeline-map";
+
 export default function Home() {
+
+  const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+
+  }, [location.pathname])
   return (
     <>
     
@@ -16,6 +25,7 @@ export default function Home() {
       <AboutProject />
       <MainPoints />
       <PipelineRoute/>
+      <PipelineMap/>
       <Tools />
       <Schedule />
       <div className="bg-primary">
