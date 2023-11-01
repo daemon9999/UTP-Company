@@ -8,7 +8,7 @@ export default function Team() {
     {
       id: 1,
       name: "Akbar Bunyadzada",
-      work: "Geosplat & Process Engineer",
+      work: "Geospatial Data Analyst",
       img: "/images/ekber.png",
     },
     {
@@ -20,7 +20,7 @@ export default function Team() {
     {
       id: 3,
       name: "Murad Masimli",
-      work: "Software & Process Engineer",
+      work: "Software Engineer",
       img: "/images/murad.png",
     },
     {
